@@ -53,7 +53,6 @@ const Lotto = () => {
   const Section = styled.div`
     text-align: center;
     margin-top: 5vh;
-    color: #555;
     text-transform: uppercase;
   `
 
@@ -63,7 +62,12 @@ const Lotto = () => {
   `
 
   const LBbox = styled.div`
+    color: #555;
     margin-bottom: 5vh;
+
+    h3{
+      font-size: 24px;
+    }
   `
 
   const Button = styled.div`

@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { useState } from 'react';
 import Lotto from './Lotto/lotto';
 import styled from 'styled-components';
-import styles from 'styles/index.module.css';
 
 export default function Home() {
   
@@ -31,7 +30,7 @@ export default function Home() {
     padding: 20px;
     box-shadow: 2px 2px 2px 2px gray;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
   `
 
   const Randomh = styled.div`
@@ -48,7 +47,8 @@ export default function Home() {
     border: none;
     border-radius: 1rem;
     margin-right: 10px;
-    background-color: #4c6c8c;
+    background-color: #638fbc;
+    /* background-color: #4c6c8c; */
     transition: all 0.6s;
     color: white;
 
@@ -64,31 +64,22 @@ export default function Home() {
     border: none;
     border-radius: 1rem;
     margin-right: 10px;
-    background-color: #ff6600;
+    background-color: #ff9249;
     transition: all 0.6s;
     color: white;
 
     &:hover{
       cursor: pointer;
-      background-color: #ff9249;
+      background-color: #ff6600;
       transition: all 0.8s;
     }
 `
 
   return (
     <div>
-      
       <Head>
         <title>무작위 & 로또 번호 추출기</title>
       </Head>
-      {/* <div className={styles.Section}>
-            <h1>무작위 번호 추출기 ( 1 ~ 50까지 )</h1>
-            <div className={styles.Sectionh}><h3>{number}</h3></div>
-            <div className={styles.ButtonBox}>
-                <div className={styles.Button1} onClick={clickNumber} disabled={get}>번호 뽑기</div>
-                <div className={styles.Button2} onClick={clickReset} disabled={reset}>초기화</div>
-            </div>
-        </div> */}
         <RandomBox>
             <h1>무작위 번호 추출기 ( 1 ~ 50까지 )</h1>
             <Randomh><h3>{number}</h3></Randomh>
