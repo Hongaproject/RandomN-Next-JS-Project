@@ -48,7 +48,6 @@ export default function Home() {
     border-radius: 1rem;
     margin-right: 10px;
     background-color: #638fbc;
-    /* background-color: #4c6c8c; */
     transition: all 0.6s;
     color: white;
 
