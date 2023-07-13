@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import styled from "styled-components";
-import NumberBall from "../Lotto/Numberball";
+import NumberBall from "./numberball";
 
 
 function getNumbers(){

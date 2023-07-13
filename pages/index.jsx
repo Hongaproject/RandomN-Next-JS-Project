@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { useState } from 'react';
-import Lotto from '../pages/Lotto/Lotto';
+import Lotto from './Lotto/lotto';
 import styled from 'styled-components';
 
 export default function Home() {
