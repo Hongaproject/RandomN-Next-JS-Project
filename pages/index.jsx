@@ -24,7 +24,7 @@ export default function Home() {
 
   const RandomBox = styled.div`
     text-align: center;
-    width: 30%;
+    width: 40%;
     border: 1px solid black;
     border-radius: 2rem;
     padding: 20px;
