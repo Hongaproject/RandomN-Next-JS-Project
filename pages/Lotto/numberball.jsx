@@ -1,7 +1,6 @@
 import React, { memo } from 'react';
 import styled from 'styled-components';
 
-// eslint-disable-next-line react/display-name
 const NumberBall = memo(({number}) => {
     let background;
   if (number < 10) {
@@ -34,6 +33,8 @@ const NumberBall = memo(({number}) => {
     </Ball>
   );
 });
+
+NumberBall.displayName = "NumberBall";
 
 export default NumberBall;
 
